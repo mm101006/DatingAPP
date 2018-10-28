@@ -20,3 +20,7 @@ Run `ng serve` to build the project.
 ## Other commands
 dotnet ef migrations add AddedUserEntity
 dotnet ef database update
+
+## What I learned
+Observables require you to subscribe 
+Input and Output for parent/child or vice versa relationships
