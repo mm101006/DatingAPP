@@ -7,11 +7,7 @@ import { AuthService } from '../_services/auth.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  // parent to child communications
-  // @Input() valuesFromHome: any;
-  // child parent communications
   @Output() cancelRegister = new EventEmitter();
-
   model: any = {};
 
   constructor(private authService: AuthService) { }
@@ -29,6 +25,7 @@ export class RegisterComponent implements OnInit {
 
   cancel() {
     this.cancelRegister.emit(false);
+    console.log('cancelled');
   }
 
 }
