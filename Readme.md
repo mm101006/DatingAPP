@@ -43,3 +43,5 @@ in the network tab, you will see two of the same name for http methods -- one is
 use try catch blocks to handle errors -- good for production and development mode -- if in production and you were not using catch blocks the only way to tell if something was wrong is to look at the terminal 
 instead of using try catch blocks you can use UseExceptionHandler see Startup.cs line 61
 
+Route Resolvers allow you to get Data before the route is activated. 
+
