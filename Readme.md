@@ -10,7 +10,7 @@ Run `ng serve` to build the project.
 
 1. Select .Net Core Attach
 2. Click Play
-3. dotnet long one
+3. "dotnet" exec "C:\users\home windows\desktop\DatingApp\DatingApp.APi\bing\debug\netcoreap...
 
 ## Database
 
@@ -44,4 +44,8 @@ use try catch blocks to handle errors -- good for production and development mod
 instead of using try catch blocks you can use UseExceptionHandler see Startup.cs line 61
 
 Route Resolvers allow you to get Data before the route is activated. 
+
+BehaviourSubject
+type of subject that is a type of Observable
+can be subscribed to, subscribers can receive updates, can send values to it
 
