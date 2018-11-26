@@ -49,3 +49,5 @@ BehaviourSubject
 type of subject that is a type of Observable
 can be subscribed to, subscribers can receive updates, can send values to it
 
+Any to any communication use Services
+
