@@ -37,17 +37,14 @@ Within Startup.cs uncomment seeder.SeedUsers();
 
 
 ## What I learned
-Observables require you to subscribe 
-Input and Output for parent/child or vice versa relationships
-in the network tab, you will see two of the same name for http methods -- one is for preflight and the other is the actual method call
-use try catch blocks to handle errors -- good for production and development mode -- if in production and you were not using catch blocks the only way to tell if something was wrong is to look at the terminal 
-instead of using try catch blocks you can use UseExceptionHandler see Startup.cs line 61
-
-Route Resolvers allow you to get Data before the route is activated. 
-
-BehaviourSubject
-type of subject that is a type of Observable
+* Observables require you to subscribe 
+* Input and Output for parent/child or vice versa relationships
+* In the network tab, you will see two of the same http methods -- one is for preflight and the other is the method call with a response
+* use try catch blocks to handle errors -- good for production and development mode -- if in production and you were not using catch blocks the only way to tell if something was wrong is to look at the terminal, an alternative to try catch block, you can use UseExceptionHandler -- see Startup.cs line 61
+* Route Resolvers allow you to get Data before the route is activated. 
+* BehaviourSubject - type of subject that is a type of Observable
 can be subscribed to, subscribers can receive updates, can send values to it
-
-Any to any communication use Services
+* Any to any communication use Services
+* Paging - restricts the number of results returned on a page, done on the backend
+* Rxjs operators - a pipe allows us access to the operator, map operator allow us to manipulate the returned observable
 
